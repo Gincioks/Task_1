@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Poetry Workshops</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css.css">
+
+
 </head>
+
 <body>
-    
+
+    <h1>Poetry Workshops</h1>
+
+    <p>We will be conducting a number of poetry Workshops and symposiums throughout the year</p>
+    <p>Please note that the following events are free to members:</p>
+    <ul>
+        <li><span>A Poetic Perspective</span></li>
+        <li><span>Walt Whitman at war</span> </li>
+        <li><span>Found Poems and Outsider Poetry</span> </li>
+    </ul>
+
+    <table>
+        <tr>
+            <th class="round"></th>
+            <th class="thbg">New York</th>
+            <th class="thbg">Chicago</th>
+            <th class="round">San Francisco</th>
+        </tr>
+        <tr>
+            <td>A Poetic Perspective</td>
+            <td>Sat, 4 Feb 2012 <br> 11am-2pm</td>
+            <td>Sat, 5 March 2012<br> 11am-2pm</td>
+            <td>Sat, 17 Mar 2012<br> 11am-2pm</td>
+        </tr>
+        <tr>
+            <td>Walt Whitman at War</td>
+            <td>Sat, 7 Feb 2012<br> 11am-1pm</td>
+            <td>Sat, 5 Feb 2012<br> 11am-1pm</td>
+            <td>Sat, 19 Feb 2012<br> 11am-1pm</td>
+        </tr>
+        <tr>
+            <td>Found Poems & Outsider Poetry</td>
+            <td>Sat, 7 Feb 2012<br> 11am-1pm</td>
+            <td>Sat, 5 Feb 2012<br> 11am-1pm</td>
+            <td>Sat, 19 Feb 2012<br> 11am-1pm</td>
+        </tr>
+        <tr>
+            <td>Natural Death: An Exploration</td>
+            <td>Sat, 4 Feb 2012<br> 11am-4pm</td>
+            <td>Sat, 8 Feb 2012<br> 11am-4pm</td>
+            <td>Sat, 15 Feb 2012<br> 11am-4pm</td>
+        </tr>
+    </table>
+
+
+
+    <fieldset class="register">
+        <legend>Register your interest</legend>
+        <form action="labas.html">
+            <div>
+                <label for="name">Your name:</label>
+                <input class="align" name="name" type="text"><br>
+                <label for="email">Your email:</label>
+                <input class="align" name="email" type="text"><br>
+            </div>
+
+            <div class="reg_padding">
+                <label for="name">Your closest center:</label>
+                <select class="align_sel" name="city" id="city">
+                    <option value="New York">New York</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="San Francisco">San Francisco</option>
+                </select><br>
+            </div>
+
+            <div class="reg_padding radio_but">
+                <label for="">Are you a member?</label>
+                <input type="radio" id="yes" name="Yes" value="yes">
+                <label for="yes">Yes</label>
+                <input class="aaa" type="radio" id="no" name="No" value="no">
+                <label for="no">No</label>
+            </div>
+        </form>
+    </fieldset>
+    <input class="myButton" type="submit" value="Register">
 </body>
+
 </html>

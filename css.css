@@ -1,0 +1,120 @@
+body {
+  background-color: #f6f6f6;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 50px;
+}
+li {
+  padding-left: 1.3em;
+}
+li span {
+  position: relative;
+  left: 10px;
+}
+li:before {
+  content: "+";
+  display: inline-block;
+  color: aliceblue;
+  width: 15px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td,
+th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
+.thbg {
+  color: white;
+  background-color: rgb(145, 182, 212);
+}
+
+.round {
+  background-clip: padding-box; /* this has been added */
+  border-radius: 50px;
+  background-color: rgb(145, 182, 212);
+  color: white;
+  border: 1px solid #999;
+}
+
+tr {
+  background-color: rgb(217, 227, 236);
+}
+tr:nth-child(even) {
+  background-color: #e2ebf2;
+}
+
+.register {
+  border: 1px solid #999;
+  width: 20%;
+  margin-top: 50px;
+  background-color: white;
+  padding: 1%;
+}
+
+.register .reg_body {
+  margin-left: 20px;
+}
+.register .reg_body .register_select {
+  margin-left: 10px;
+}
+
+.align {
+  margin-left: 30%;
+}
+
+.reg_padding {
+  padding-top: 2%;
+}
+
+.align_sel {
+  margin-left: 16%;
+}
+
+input {
+  margin-left: 60px;
+}
+
+input .aaa {
+  margin-left: -60px;
+}
+
+legend {
+  font: italic 12pt/0 "Averia Serif Libre";
+  padding: 2 4px;
+  margin-bottom: 10px;
+}
+
+.myButton {
+  background: linear-gradient(to bottom, #02f837 5%, #5cbf2a 100%);
+  background-color: #02f837;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 3px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-left: 14%;
+  margin-top: 5px;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #5cbf2a 5%, #02f837 100%);
+  background-color: #5cbf2a;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
