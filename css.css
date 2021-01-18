@@ -84,10 +84,6 @@ input {
   margin-left: 60px;
 }
 
-input .aaa {
-  margin-left: -60px;
-}
-
 legend {
   font: italic 12pt/0 "Averia Serif Libre";
   padding: 2 4px;
